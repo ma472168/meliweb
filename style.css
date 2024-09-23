@@ -86,3 +86,17 @@ h1 {
   font-size: 40px;
   color: rgb(230, 221, 221);
 }
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    top: 80%; /* Baja el texto para que no se encime */
+    font-size: 30px; /* Reduce el tamaño del texto en pantallas pequeñas */
+  }
+
+  #button {
+    width: 60px; /* Reduce el tamaño del botón en pantallas pequeñas */
+    height: 60px;
+    top: 40%; /* Ajusta la posición del botón */
+    margin: -30px;
+  }
+}
